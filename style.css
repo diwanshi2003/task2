@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 120%;
+  background-image: url('image/background.jpg'); /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Box */
+.header {
+  width: 30%;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+}
+
+/* Form box */
+form {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 0px 0px 10px 10px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Input fields */
+.input-group {
+  margin: 10px 0;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Error and Success messages */
+.error {
+  width: 92%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
